@@ -29,7 +29,7 @@
         <li>db.reactdevelop.find().pretty_____(To Formatter)</li>
       </ol>
     </section>
-    <h1>CLASS05</h1>
+    <h1 class="d-flex text-align-center justify-content-center">CLASS05</h1>
     <section class="d-flex text-align-center justify-content-center mt-5">
       <ol>
         <li>
@@ -39,6 +39,13 @@
         <li>
           db.reactdevelop.find({name:"React Js"},{name:1}).pretty()-----(to find
           specific query)
+        </li>
+        <li>
+          db.reactdevelop.find({name:"React Js"}, {_id:0, name:1}).pretty()
+        </li>
+        <li>
+          db.reactdevelop.find({active:true}).pretty().limit(1)____this show 1st
+          collection in database
         </li>
       </ol>
     </section>
