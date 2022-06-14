@@ -47,6 +47,13 @@
           db.reactdevelop.find({active:true}).pretty().limit(1)____this show 1st
           collection in database
         </li>
+        <li>
+          db.reactdevelop.findOne({active:true})____Find only one collections
+        </li>
+        <li>
+          db.reactdevelop.find({active:true}).limit(1).skip(1)___it show 2nd
+          number of collection
+        </li>
       </ol>
     </section>
   </body>
